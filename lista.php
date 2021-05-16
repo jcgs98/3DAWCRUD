@@ -35,7 +35,7 @@
                                         <td><?php echo $r['NOME']; ?></td>
                                         <td><?php echo $r['MATRICULA']; ?></td>
                                         <td><?php echo $r['ESCOLA']; ?></td>
-										<td><?php echo $r['ORIENTADOR']; ?></td>
+					<td><?php echo $r['ORIENTADOR']; ?></td>
                                         <td><a href="update.php?update_MATRICULA=<?php echo $r['MATRICULA']; ?>">Atualizar</a></td>
                                         <td><a href="delete.php?delete_MATRICULA=<?php echo $r['MATRICULA']; ?>">Apagar</a></td>
                                     </tr>
